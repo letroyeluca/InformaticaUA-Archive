@@ -1,0 +1,125 @@
+from Draw import print_tree
+from TwoThreeTree import *
+if __name__ == "__main__":
+    t = TwoThreeTree()
+    print(t.isEmpty())
+    print(t.insertItem(createTreeItem(8,8)))
+    print(t.insertItem(createTreeItem(5,5)))
+    print(t.isEmpty())
+    print(t.retrieveItem(5)[0])
+    print(t.retrieveItem(5)[1])
+    t.inorderTraverse(print)
+    print(t.save())
+    t.load({'root': [10],'children':[{'root':[5]},{'root':[11]}]})
+    t.insertItem(createTreeItem(15,15))
+    print(t.deleteItem(0))
+    print(t.save())
+    print(t.deleteItem(10))
+    print(t.save())
+
+# # Oplossingen:
+# True
+# True
+# True
+# False
+# 5
+# True
+# 5
+# 8
+# {'root': [5,8]}
+# False
+# {'root': [10],'children':[{'root':[5]},{'root':[11,15]}]}
+# True
+# {'root': [11],'children':[{'root':[5]},{'root':[15]}]}
+
+    print("==MyTests==")
+    m = TwoThreeTree()
+    m.insertItem(1)
+    m.insertItem(10)
+    print(m.save())
+    m.insertItem(3)
+    print(m.save())
+    m.insertItem(8)
+    print(m.save())
+    m.insertItem(5)
+    print(m.save())
+    m.deleteItem(1)
+    print(m.save())
+    m.insertItem(6)
+    print(m.save())
+    m.insertItem(7)
+    print(m.save())
+    m.insertItem(4)
+    print(m.save())
+    m.deleteItem(8)
+    print(m.save())
+    m.insertItem(9)
+    print(m.save())
+    m.insertItem(2)
+    print(m.save())
+    m.deleteItem(3)
+    print(m.save())
+    m.deleteItem(7)
+    print(m.save())
+
+    if __name__ == "__main__":
+        t = TwoThreeTree()
+        t.insertItem(createTreeItem(5, 5))
+        t.insertItem(createTreeItem(10, 10))
+        t.insertItem(createTreeItem(2, 2))
+        t.insertItem(createTreeItem(12, 12))
+        t.insertItem(createTreeItem(15, 15))
+        t.insertItem(createTreeItem(1, 1))
+        t.insertItem(createTreeItem(3, 3))
+        t.insertItem(createTreeItem(4, 4))
+        t.inorderTraverse(print)
+        print(t.save())
+
+    if __name__ == "__main__":
+        t = TwoThreeTree()
+        t.load({'root': [5], 'children': [{'root': [2], 'children': [{'root': [1]}, {'root': [3, 4]}]},
+                                          {'root': [12], 'children': [{'root': [10]}, {'root': [15]}]}]})
+        print(t.save())
+        t.deleteItem(1)
+        print(t.save())
+        t.deleteItem(5)
+        print(t.save())
+        t.deleteItem(2)
+        print(t.save())
+        k = TwoThreeTree()
+        k.insertItem(10)
+        k.save()
+        k.insertItem(10)
+        print_tree(k.save())
+        k.insertItem(14)
+        print_tree(k.save())
+        k.insertItem(18)
+        print_tree(k.save())
+        k.insertItem(2)
+        print_tree(k.save())
+        k.insertItem(6)
+        print_tree(k.save())
+        k.insertItem(45)
+        print_tree(k.save())
+        k.insertItem(12)
+        k.insertItem(13)
+        print_tree(k.save())
+        k.insertItem(47)
+        print_tree(k.save())
+        k.insertItem(1)
+        print_tree(k.save())
+        k.insertItem(7)
+        print_tree(k.save())
+        k.insertItem(18)
+        print_tree(k.save())
+        k.insertItem(83)
+        print_tree(k.save())
+        print(k.save())
+        k.insertItem(76)
+        print(k.save())
+        print_tree(k.save())
+        print(k.save())
+        k.insertItem(5)
+        print_tree(k.save())
+        k.insertItem(8)
+        print_tree(k.save())

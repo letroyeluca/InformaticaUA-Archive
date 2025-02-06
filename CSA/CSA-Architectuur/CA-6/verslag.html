@@ -1,0 +1,55 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Verslag 6: Full Datapath</title>
+<!-- Het "u" element (underline) is geherdefinieerd voor overline -->
+<style type="text/css">u {text-decoration: overline;}</style>
+</head>
+      <body>
+          <h1>Verslag 6: Full Datapath</h1>
+          <p>Dit verslag werd opgesteld door:<br></p>
+          <ul>
+              <li>
+                  <b>Naam:</b> <i>CouldBeMathijs</i><br>
+              </li>
+              <li>
+                  <b>Naam:</b> <i>Creation</i><br>
+              </li>
+          </ul>
+          <b>Aantal man-uren besteed:</b> <i>1.5 uur</i><br>
+          <b>Moeilijkheidsgraad:</b> <i>2</i>/10 (1 is heel makkelijk, 10 is heel moeilijk)<p></p>
+          <h2>Inhoud van de oplossing</h2>
+          <p>De oplossing bestaat uit de volgende bestanden:</p>
+          <ul>
+              <li><a href="logisim/FD_Group10.circ">FD_Group10.circ</a></li>
+              <li><a href="logisim/12bitsCLA.circ">12bitsCLA.circ</a></li>
+              <li><a href="logisim/OurALU.circ">OurALU.circ</a></li>
+              <li><a href="logisim/OurMemory.circ">OurMemory.circ</a></li>
+          </ul>
+          <h2>Verslag 6</h2>
+          <h3>Decoder: </h3>
+          <img src="images/decoder.png">
+          <p>Hier voegden we een 12-bit versie van de Immediate toe, deze is nodig voor sommige nieuwe operaties</p>
+          <h3>Controller: </h3>
+          <img src="images/Controller.png">
+          <p>90% is hetzelfde gebleven, hieronder een oplijsting van de nieuwigheden en veranderingen.</p>
+          <ul>
+          <li><strong>Branch Absolute</strong>: staat aan bij jump, jump and link en jump register.</li>
+          <li><strong>Return Adress</strong>: staat aan bij jump and link</li>
+          <li><strong>Branch Relative</strong>: staat aan bij de branch relative not zero instructie</li>
+          <li><strong>Jump register</strong>: staat aan bij register</li>
+          <li>We vervingen de ongebruikte "zero operation" output door de nuttigere output om aan te geven of rd gedupliceerd moet worden naar rs.</li>
+          <li>We voegden een case toe aan de ALU-code generator, deze wordt nu 7 (neq) wanneer de branch wordt uitgevoerd, om zo na te kijken of er al dan niet gesprongen moet worden</li>
+          </ul>
+          <h4>Full Datapath: </h4>
+          <p>De instructie wordt eerst gesplitst door de decoder waarna de functie- en OP-code naar de controller gaan.</p>
+          <ul>
+          		<li><strong>brnz</strong>: De ALU vergelijkt wat in register rd staat met 0, als dit niet gelijk is, laat de AND-gate de branch relative input van de PC aangaan, waardoor de programcounter geïncrementeerd wordt, en daarbij de immediate wordt opgeteld.</li>
+          		<li><strong>jr</strong>: De ALU telt wat in register rd staat op bij de 9-bit immediate (analoog aan addi), en het resultaat gaat naar de branch value van de PC, omdat ook het branch absolute lampje van de controller brandt, stelt de PC zichzelf gelijk aan dit branch value</li>
+          		<li><strong>j</strong>: De 12-bit Immediate wordt rechtstreeks doorgegeven aan de branch value, en de PC overschrijft zichzelf hiermee</li>
+          		<li><strong>jal</strong>: Voert een jump uit (zie bovenstaande), maar slaat eerst de huidige waarde van de PC + 1 op in register r7, hiervoor gebruiken we een nieuwe adder.</li>
+          </ul>
+          <img src="images/FD.png" width=100%>
+          <h5>Swap: </h5>
+          <img src="images/Swap.png">
+      </body>
+</html>

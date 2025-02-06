@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Check if a parameter is given, if not prompt for user input
+if [ $# -eq 0 ]; then
+    read -p "Enter the desired output zip file name (without .zip): " output_file
+else
+    output_file="$1"
+fi
+
+# Append .zip to the output filename
+output_file="${output_file}.zip"
+
+# Find all .cpp files excluding main.cpp and all .h files, then zip them
+zip "$output_file" $(find . -maxdepth 1 -type f \( -name "*.cpp" ! -name "main.cpp" -o -name "*.h" \))
+
+# Confirm the result
+if [ $? -eq 0 ]; then
+    echo "Done :)"
+else
+    echo "An error occurred while zipping the files."
+fi

@@ -1,0 +1,22 @@
+# r1 = vorigere getal
+# r2 = vorige getal
+# r3 = huidige getal
+# r6 = teller
+# r7 = return adres
+
+LOADMEM
+zero r1 		# 0	    # Initialiseer de waarde r1 op 0
+ldi r2 1		# 1     # Initialiseer de waarde r2 op 1
+zero r6			# 2	    # Initialiseer de teller
+sw r1 r6 0		# 3	    # Sla 0 op adres 0 op
+addi r6 1		# 4	    # Incrementeer de teller
+sw r2 r6 0		# 5 	# Sla 1 op adres 1 op
+#Loop
+add r3 r1 r2	# 6	    # Tel de 2 vorige waarden op tot de huidige waarde
+addi r6 1		# 7	    # Incrementeer de teller
+sw r3 r6 0		# 8	    # Voeg de huidige waarde toe aan het datageheugen op plaats "teller"
+add r1 r2 r0    # 9	    # Verplaats r2 naar r1 (maak de vorige waarde de vorigere waarde)
+add r2 r3 r0	# 10	# Verplaats r3 naar r2 (maak de huidige waarde de vorige waarde)
+j 6			    # 11	# En herhaal
+
+

@@ -1,0 +1,64 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>Verslag 5: Datapath</title>
+<!-- Het "u" element (underline) is geherdefinieerd voor overline -->
+<style type="text/css">u {text-decoration: overline;}</style>
+</head>
+      <body>
+          <h1>Verslag 5: Datapath</h1>
+          <p>Dit verslag werd opgesteld door:<br></p>
+          <ul>
+              <li>
+                  <b>Naam:</b> <i>CouldBeMathijs</i><br>
+              </li>
+              <li>
+                  <b>Naam:</b> <i>Creation</i><br>
+              </li>
+          </ul>
+          <b>Aantal man-uren besteed:</b> <i>20 uur</i><br>
+          <b>Moeilijkheidsgraad:</b> <i>8</i>/10 (1 is heel makkelijk, 10 is heel moeilijk)<p></p>
+          <h2>Inhoud van de oplossing</h2>
+          <p>De oplossing bestaat uit de volgende bestanden:</p>
+          <ul>
+              <li><a href="logisim/SD_Group10.circ">SD_Group10.circ</a></li>
+              <li><a href="logisim/12bitsCLA.circ">12bitsCLA.circ</a></li>
+              <li><a href="logisim/OurALU.circ">OurALU.circ</a></li>
+              <li><a href="logisim/OurMemory.circ">OurMemory.circ</a></li>
+          </ul>
+          <h2>Verslag 5</h2>
+          <h3>Program Counter: </h3>
+          <img src="images/PC.png">
+          <p> Onze program counter is gebasseerd op de counter van de vorige opdracht. We hebben deze lichtjes aangepast om de Branches toe te voegen, maar het concept blijft gelijk.</p>
+          <h3>Decoder: </h3>
+          <img src="images/Decoder.png">
+          <p> Onze decoder gebruikt splitters en bit extenders om de instructie op te splitsen, we hebben een 6-bit variant van de immidiate toegevoegd om zo makkelijker tussen de 2 vormen te kunnen differentiëren in onze main. </p> 
+          <h3>Controller: </h3>
+          <img src="images/Controller.png">
+          <ul>
+          		<li><strong>Read memory: </strong>staat enkel aan bij de lw-instructie</li>
+          		<li><strong>Write memory: </strong>staat enkel aan bij de sw-instructie</li>
+          		<li><strong>Subi: </strong>staat enkel aan bij de subi-instructie, deze was noodzakelijk om de swap te kunnen aansturen, lees SD. </li>
+          		<li><strong>ALU Operation: </strong>als de OP-code 001 is wordt de functiecode letterlijk doorgegeven, bij 010 geven we de functiecode met de eerste bit geïnverteerd, bij OP-Code 000 maken we de ALU-code de code voor de zero-operation, er zijn ook extra checks voor addi en subi. Wanneer geen specifieke andere operatie nodig is, default het naar add.</li>
+				<li><strong>Register Write: </strong>staat aan bij alle operaties waarbij er naar een register geschreven moet worden, dat zijn ze allemaal behalve sw.</li>
+				<li><strong>Load Immediate </strong>Register: staat aan bij ldi en lui</li>
+				<li><strong>Zero Operation: </strong>staat aan bij de zero operation</li>
+				<li><strong>ALU Immediate: </strong>staat aan bij addi en subi</li>
+				<li><strong>Use Upper: s</strong>taat aan bij lui</li>
+          </ul>
+          <h4>Simple Datapath: </h4>
+          <p>De instructie wordt eerst gesplitst door de decoder waarna de functie- en OP-code naar de controller gaan.</p>
+          <ul>
+          		<li><strong>Zero:</strong> Het schrijft rechtstreeks 0x000 naar het gegeven register want reg-write staat aan, en r0 wordt uitgelezen, en overschrijft rd.</li>
+          		<li><strong>ALU operations: </strong>Doordat de controller de juiste OP-code doorgeeft aan de ALU, reg-write aanstaat en rs en rt doorgegeven worden aan de ALU, kunnen alle ALU-operations uitgevoerd worden.</li>
+          		<li><strong>ldi: </strong>De 9-bit immediate wordt doorgegeven aan de registerfile, en het register rd wordt met die waarde overschreven.</li>
+          		<li><strong>lui: </strong>De gebitshifte waarde wordt doorgelaten door een MUX, hierna is het analoog aan de ldi.</li>
+          		<li><strong>addi: </strong>Laat de immediate door naar de a-input van de ALU, laat de data in rd door naar de b input van de ALU en schrijft de output naar rd</li>
+          		<li><strong>subi: </strong>Omdat subtract niet commutatief is, moeten we compenseren met een swap anders zou de immediate - rd gedaan worden in plaats van omgekeerd. We hadden dit ook kunnen oplossen door de kabels naar de registerfile te herplaatsen, maar dit was de laatste bug in ons datapad en we wouden niet knoeien met dat dat al werkte.</li>
+          		<li><strong>lw: </strong>Stelt de ALU in op optellen, telt rs bij de 6-bit immediate zegt tegen het datageheugen dat we willen lezen en laat de output door naar rd.</li>
+          		<li><strong>sw: </strong>Stelt de ALU in op optellen, telt rs bij de 6-bit immediate zegt tegen het datagehuegen dat we er naar willen schrijven en geeft de output van register rd door aan het geheugen.</li>
+          </ul>
+          <img src="images/SD.png">
+          <h5>Swap: </h5>
+          <img src="images/Swap.png">
+      </body>
+</html>

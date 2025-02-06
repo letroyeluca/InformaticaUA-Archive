@@ -1,0 +1,43 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-15">
+<title>Verslag 4: Geheugen</title>
+<!-- Het "u" element (underline) is geherdefinieerd voor overline -->
+<style type="text/css">u {text-decoration: overline;}</style>
+</head>
+      <body>
+          <h1>Verslag 4: Geheugen</h1>
+          <p>Dit verslag werd opgesteld door:<br></p>
+          <ul>
+              <li>
+                  <b>Naam:</b> <i>CouldBeMathijs</i><br>
+              </li>
+              <li>
+                  <b>Naam:</b> <i>Creation</i><br>
+              </li>
+          </ul>
+          <b>Aantal man-uren besteed:</b> <i>16 uur</i><br>
+          <b>Moeilijkheidsgraad:</b> <i>6</i>/10 (1 is heel makkelijk, 10 is heel moeilijk)<p></p>
+          <h2>Inhoud van de oplossing</h2>
+          <p>De oplossing bestaat uit de volgende bestanden:</p>
+          <ul>
+              <li><a href="logisim/CA-4.circ">CA-4.circ</a></li>
+              <li><a href="logisim/12bitsCLA.circ">12bitsCLA.circ</a></li>
+          </ul>
+          <h2>Verslag 4</h2>
+          <h3>Opdracht 1: Register</h3>
+          <img src="images/register.png">
+          <h3>Opdracht 2: Registerfile</h3>
+          <img src="images/registerfile.png">
+          <p>We beslisten hier om voor r0 een constante te gebruiken in plaats van een register, zodat er geen enkele mogelijkheid is dat het zou kunnen overschreven worden. We hadden eerst ook een demultiplexer voor de data, maar dit bleek overbodig.</p>
+          <h3>Opdracht 3: Counter</h3>
+          <img src="images/counter.png">
+          <p>We hadden eerst niet gedacht aan het gebruiken van comparators en hadden het onszelf daardoor veel te moeilijk gemaakt.</p>
+          <h4>Opdracht 4: Finitestate Machine</h4>
+          <img src="images/finite-state-machine.png">
+          <p>We kozen ervoor om "als veiligheidsmaatregel" en ook om efficiëntieredenen de standaard-output voor beide verkeerslichten rood te maken, mocht er dus iets fout lopen bij de counter, zouden beide lichten op rood komen te staan in plaats van uit te vallen of op groen te springen.</p>
+          <h4>Opdracht 5 - Bonus: Stack</h4>
+          <p>Hieraan hebben we veruit de meeste tijd besteed, we zijn minstens 3 keer opnieuw begonnen en hebben veel gevochten met logisim om het zo te maken dat onze counter wanneer een nieuwe input floating of 0 was, de counter omhoog zou tellen, een wanneer deze input 1 was de counter af zou tellen. We kregen dit niet goed en hebben dus een nieuwe counter moeten maken in plaats van nieuwe functionaliteit toe te voegen aan de oude.</p>
+          <img src="images/stack.png">
+          <img src="images/counter-with-sub.png">
+      </body>
+</html>

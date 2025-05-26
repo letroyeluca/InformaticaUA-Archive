@@ -1,0 +1,17 @@
+Alphabet = {F, X}
+
+Draw = {
+    F -> 1
+}
+
+Rules = {
+    X -> {0.33: "F(+X)F(-X)FX",
+          0.33: "F(-FX)F(+FX)",
+          0.34: "FX"},
+    F -> {1.0: "FF"}
+}
+
+Initiator     = "X"
+Angle         = 25
+StartingAngle = 90
+Iterations    = 6

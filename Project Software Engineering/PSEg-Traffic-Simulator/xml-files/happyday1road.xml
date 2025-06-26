@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SITUATIE>
+    <BAAN>
+        <naam>Middelheimlaan</naam>
+        <lengte>500</lengte>
+    </BAAN>
+
+    <VERKEERSLICHT>
+        <baan>Middelheimlaan</baan>
+        <positie>200</positie>
+        <cyclus>20</cyclus>
+    </VERKEERSLICHT>
+
+    <VERKEERSLICHT>
+        <baan>Middelheimlaan</baan>
+        <positie>480</positie>
+        <cyclus>15</cyclus>
+    </VERKEERSLICHT>
+
+    <VOERTUIG>
+        <baan>Middelheimlaan</baan>
+        <positie>20</positie>
+    </VOERTUIG>
+
+    <VOERTUIG>
+        <baan>Middelheimlaan</baan>
+        <positie>0</positie>
+    </VOERTUIG>
+
+    <VOERTUIGGENERATOR>
+        <baan>Middelheimlaan</baan>
+        <frequentie>5</frequentie>
+        <type>random</type>
+    </VOERTUIGGENERATOR>
+
+    <BUSHALTE>
+        <baan>Middelheimlaan</baan>
+        <wachttijd>10</wachttijd>
+        <positie>300</positie>
+    </BUSHALTE>
+</SITUATIE>

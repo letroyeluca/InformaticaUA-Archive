@@ -1,0 +1,68 @@
+name: gtest_valgrind_release_debug
+
+on:
+  push:
+    branches: [ "*" ]
+  pull_request:
+    branches: [ "*" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgtest-dev libsfml-dev valgrind cmake xvfb
+
+      - name: Compile gtest
+        run: |
+          cd /usr/src/gtest
+          sudo cmake CMakeLists.txt
+          sudo make
+          sudo cp lib/*.a /usr/lib
+          sudo ln -sf /usr/lib/libgtest.a /usr/local/lib/libgtest.a
+          sudo ln -sf /usr/lib/libgtest_main.a /usr/local/lib/libgtest_main.a
+
+      - name: Configure Debug Build
+        run: |
+          mkdir -p build
+          cd build
+          cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS="-Werror" ../
+
+      - name: Build Debug Target
+        run: |
+          cd build
+          make
+
+      - name: Run Debug Tests with xvfb
+        run: |
+          xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' ./build/debug_target
+
+      - name: Run Valgrind on Debug Target
+        run: |
+          xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' valgrind --leak-check=full --error-exitcode=1 ./build/debug_target
+
+      - name: Configure Release Build
+        run: |
+          mkdir -p build_release
+          cd build_release
+          cmake -DCMAKE_BUILD_TYPE=Release ../
+
+      # Uncomment the following block only if release_target quits on its own
+      # - name: Build Release Target
+      #   run: |
+      #     cd build_release
+      #     make
+      #
+      # - name: Run Release Tests with xvfb
+      #   run: |
+      #     xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' ./build_release/release_target
+      #
+      # - name: Run Valgrind on Release Target
+      #   run: |
+      #     xvfb-run --auto-servernum --server-args='-screen 0 1024x768x24' valgrind --leak-check=full --error-exitcode=1 ./build_release/release_target

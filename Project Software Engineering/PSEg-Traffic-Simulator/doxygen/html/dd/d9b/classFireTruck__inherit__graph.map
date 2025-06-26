@@ -1,0 +1,5 @@
+<map id="FireTruck" name="FireTruck">
+<area shape="rect" id="Node000001" title="Represents a fire truck on a road." alt="" coords="5,80,82,107"/>
+<area shape="rect" id="Node000002" href="$dc/d23/classVehicle.html" title="The base class for all vehicles." alt="" coords="12,5,75,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="46,48,46,80,41,80,41,48"/>
+</map>

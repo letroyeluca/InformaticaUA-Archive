@@ -1,0 +1,112 @@
+error: /usr/include/wchar.h:35:10: fatal error: 'stddef.h' file not found [clang]
+error: /../lib64/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../include/c++/15.1.1/cstddef:52:10: fatal error: 'stddef.h' file not found [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/cmake-build-debug/CMakeFiles/3.31.6/CompilerIdC/CMakeCCompilerId.c:2:3: error: "A C++ compiler has been selected for C." [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/cmake-build-debug/graphicsEngine-prefix/src/graphicsEngine-build/CMakeFiles/3.31.6/CompilerIdC/CMakeCCompilerId.c:2:3: error: "A C++ compiler has been selected for C." [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/cmake-build-release/CMakeFiles/3.31.6/CompilerIdC/CMakeCCompilerId.c:2:3: error: "A C++ compiler has been selected for C." [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Button.h:9:10: fatal error: 'SFML/Graphics.hpp' file not found [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Camera.h:9:10: fatal error: 'SFML/Graphics.hpp' file not found [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/ResourceManager.h:8:10: fatal error: 'SFML/Graphics/Font.hpp' file not found [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/RoadInfoPanel.h:9:10: fatal error: 'SFML/Graphics.hpp' file not found [clang]
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Simulation.h:57: warning: Found unknown command '\old'
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Simulation.h:49: warning: Found unknown command '\old'
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:56:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:56:57: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:118:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:118:58: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:186:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:186:47: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:217:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:217:45: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:260:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:260:53: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:274:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:274:53: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:297:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:297:54: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:297:87: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:311:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:311:48: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:325:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:325:49: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:337:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:337:48: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:360:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:360:49: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:374:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:374:61: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:374:83: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:386:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:386:43: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:405:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:405:42: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:416:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:416:47: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:438:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:438:47: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:438:73: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:450:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:450:43: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:467:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:467:45: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:479:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:479:45: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:479:76: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:490:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:490:56: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:504:12: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:504:42: error: use of undeclared identifier 'std' [clang]
+error: /home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/ErrorMessages.h:504:71: error: use of undeclared identifier 'std' [clang]
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:96: warning: Member findRelevantTrafficLight() const (function) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:98: warning: Member resetVmax() (function) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:108: warning: Member findRelevantBusStop() const (function) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:25: warning: Member _initCheck (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:27: warning: Member road (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:28: warning: Member l (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:29: warning: Member x (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:30: warning: Member v (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:31: warning: Member vmax (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:32: warning: Member Vmax (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:33: warning: Member a (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:34: warning: Member amax (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:35: warning: Member bmax (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:36: warning: Member minFollowingDistance (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:37: warning: Member decelerationDistance (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:38: warning: Member stoppingDistance (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:39: warning: Member decelerationFactor (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:41: warning: Member decidedToStopForLight (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:43: warning: Member plannedNextRoad (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:44: warning: Member closestIntersectionBinding (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:47: warning: Member texture (variable) of class Vehicle is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Stop.h:20: warning: Member _initCheck (variable) of class Stop is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Stop.h:21: warning: Member lastChange (variable) of class Stop is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Stop.h:22: warning: Member position (variable) of class Stop is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Stop.h:23: warning: Member road (variable) of class Stop is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Stop.h:24: warning: Member currentTime (variable) of class Stop is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Button.h:33: warning: Member Button(const Button &other) noexcept (function) of class Button is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Button.h:34: warning: Member operator=(const Button &other) noexcept (function) of class Button is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Button.h:36: warning: Member Button(Button &&other) noexcept (function) of class Button is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Button.h:37: warning: Member operator=(Button &&other) noexcept (function) of class Button is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/ButtonManager.h:18: warning: Member ButtonCallback (typedef) of class ButtonManager is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Gui.h:31: warning: Member ClickDragThreshold (variable) of struct GuiSettings is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Gui.h:32: warning: Member PanelWidth (variable) of struct GuiSettings is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Gui.h:33: warning: Member PanelY (variable) of struct GuiSettings is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Gui.h:34: warning: Member PanelBottomMargin (variable) of struct GuiSettings is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Intersection.h:72: warning: Member getTrafficLights() (function) of class Intersection is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/RoadInfoPanel.h:70: warning: Member getSetGeneratorButton() (function) of class RoadInfoPanel is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/RoadInfoPanel.h:71: warning: Member getVehicleTypeButton() (function) of class RoadInfoPanel is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/RoadInfoPanel.h:72: warning: Member getVehicleSpawnButton() (function) of class RoadInfoPanel is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Road.h:27: warning: Member intersection (variable) of struct RoadIntersectionBinding is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Road.h:28: warning: Member position (variable) of struct RoadIntersectionBinding is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Gui.h:21: warning: Member origin (variable) of struct RoadLayout is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Gui.h:22: warning: Member direction (variable) of struct RoadLayout is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Gui.h:23: warning: Member angleDeg (variable) of struct RoadLayout is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/Gui.h:24: warning: Member widthPixels (variable) of struct RoadLayout is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Simulation.h:83: warning: Member getIntersections() (function) of class Simulation is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/SimulationRenderer.h:95: warning: Member getRoadAngles() (function) of class SimulationRenderer is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Stop.h:126: warning: Member toggle() (function) of class TrafficLight is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Stop.h:94: warning: Member cycle (variable) of class TrafficLight is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Stop.h:95: warning: Member currentState (variable) of class TrafficLight is not documented.
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/Vehicle.h:105: warning: unexpected end of comment block while parsing the argument of command param
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/classes/VehicleGenerator.h:35: warning: The following parameter of VehicleGenerator::VehicleGenerator(unsigned int frequency, Road *road, const std::string &VehicleType) is not documented:
+  parameter 'VehicleType'
+/home/mathijs/Documents/B.INF1/PSE/PSEg-Traffic-Simulator/io/output/simulation/SimulationRenderer.h:57: warning: Member VehicleRenderer(ResourceManager &textureManager) (function) of class VehicleRenderer is not documented.

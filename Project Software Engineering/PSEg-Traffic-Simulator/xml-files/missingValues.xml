@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SITUATIE>
+    <VERKEERSLICHT>
+        <baan>The Road</baan>
+        <positie>0</positie>
+        <cyclus>0</cyclus>
+    </VERKEERSLICHT>
+
+    <VOERTUIG>
+        <baan>The Road</baan>
+        <positie>0</positie>
+    </VOERTUIG>
+
+    <VOERTUIGGENERATOR>
+        <baan>The Road</baan>
+        <frequentie>0</frequentie>
+    </VOERTUIGGENERATOR>
+
+    <BUS></BUS>
+
+    <BUS>
+        <naam>appelsiensap</naam>
+    </BUS>
+</SITUATIE>

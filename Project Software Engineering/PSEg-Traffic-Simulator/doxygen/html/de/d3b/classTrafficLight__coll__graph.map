@@ -1,0 +1,8 @@
+<map id="TrafficLight" name="TrafficLight">
+<area shape="rect" id="Node000001" title="traffic light, a toggleable stop" alt="" coords="5,180,91,207"/>
+<area shape="rect" id="Node000002" href="$d9/d89/classStop.html" title="The base class for all objects on roads at which vehicles should stop." alt="" coords="24,104,72,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,146,51,180,45,180,45,146"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="89,109,99,117,90,126,73,127,73,122,88,121,94,117,86,113"/>
+<area shape="rect" id="Node000003" href="$d1/d18/classRoad.html" title="A road on which vehicles can travel." alt="" coords="22,5,74,32"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="51,48,51,104,45,104,45,48"/>
+</map>

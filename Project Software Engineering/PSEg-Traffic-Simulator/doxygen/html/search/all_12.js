@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['plan_202_200_20not_20updated_20anymore_0',['TODO Plan 2.0 &lt;em&gt;[Not updated anymore]&lt;/em&gt;',['../d0/d30/md_README.html#autotoc_md5',1,'']]],
+  ['plan_202_201_1',['TODO Plan 2.1',['../d0/d30/md_README.html#autotoc_md1',1,'']]],
+  ['police_2',['Police',['../d3/d74/classPolice.html',1,'']]],
+  ['position_3',['position',['../dd/d18/structConnectedRoad.html#a367f912dea2b3bf3ec5928f467ee6d32',1,'ConnectedRoad']]],
+  ['project_20software_20engineering_20groepswerk_20traffic_20simulator_4',['Project Software Engineering - Groepswerk - Traffic Simulator',['../d0/d30/md_README.html',1,'']]],
+  ['properlyinitialized_5',['properlyInitialized',['../d7/dbe/classIntersection.html#ace595ae52838d4942b35566cf7784ad6',1,'Intersection::properlyInitialized()'],['../d1/d18/classRoad.html#a71e3ba22e8902451d445b975d7a3560f',1,'Road::properlyInitialized()'],['../d9/d89/classStop.html#aeba64856a4097cc71d70e747458898a9',1,'Stop::properlyInitialized()'],['../dc/d23/classVehicle.html#a0a40d3b71dee5f2915e8a72f588a3bc7',1,'Vehicle::properlyInitialized()'],['../d7/daf/classVehicleGenerator.html#ae17e2c9411a88166a87eac7a50923538',1,'VehicleGenerator::properlyInitialized()'],['../d1/d7b/classSimulation.html#a0f0da785e9abba7972ccd4f6e4561a46',1,'Simulation::properlyInitialized()'],['../d1/d19/classButton.html#ae4b1c0e0a8b1dba108123c5345f5e106',1,'Button::properlyInitialized()'],['../d1/df0/classCamera.html#a30368a7a688d2c5cb4449e03a3112835',1,'Camera::properlyInitialized()'],['../de/d6b/classResourceManager.html#a18c397d5fc305ec479fbb772acdcfc58',1,'ResourceManager::properlyInitialized()'],['../d9/d88/classRoadInfoPanel.html#a9b003f1a46ed4aad857696ac14dc04aa',1,'RoadInfoPanel::properlyInitialized()']]]
+];

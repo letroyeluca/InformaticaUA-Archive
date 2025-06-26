@@ -1,0 +1,5 @@
+<map id="ConnectedRoad" name="ConnectedRoad">
+<area shape="rect" id="Node000001" title="A struct to keep roads and the position of the intersection together." alt="" coords="5,104,121,131"/>
+<area shape="rect" id="Node000002" href="$d1/d18/classRoad.html" title="A road on which vehicles can travel." alt="" coords="37,5,89,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,48,66,104,60,104,60,48"/>
+</map>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SIMULATIE>
+    <BAAN>
+        <naam>TestRoad</naam>
+        <lengte>0</lengte>
+    </BAAN>
+
+    <VOERTUIG>
+        <baan>TestRoad</baan>
+        <positie>0</positie>
+        <type>auto</type>
+    </VOERTUIG>
+
+    <VERKEERSLICHT>
+        <baan>TestRoad</baan>
+        <positie>0</positie>
+        <cyclus>0</cyclus>
+    </VERKEERSLICHT>
+</SIMULATIE>

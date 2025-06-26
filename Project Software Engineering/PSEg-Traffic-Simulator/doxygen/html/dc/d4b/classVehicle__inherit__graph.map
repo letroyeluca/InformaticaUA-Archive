@@ -1,0 +1,13 @@
+<map id="Vehicle" name="Vehicle">
+<area shape="rect" id="Node000001" title="The base class for all vehicles." alt="" coords="174,5,238,32"/>
+<area shape="rect" id="Node000002" href="$df/dba/classAmbulance.html" title="Represents an ambulance on the road." alt="" coords="5,80,92,107"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="166,41,77,82,75,77,164,36"/>
+<area shape="rect" id="Node000003" href="$d2/dfc/classBus.html" title="Represents a bus on the road." alt="" coords="116,80,160,107"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="185,45,151,81,148,78,182,42"/>
+<area shape="rect" id="Node000004" href="$d7/d42/classCar.html" title="Represents a car on the road." alt="" coords="185,80,227,107"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="208,48,208,80,203,80,203,48"/>
+<area shape="rect" id="Node000005" href="$df/d8f/classFireTruck.html" title="Represents a fire truck on a road." alt="" coords="252,80,328,107"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="234,40,277,78,274,82,230,45"/>
+<area shape="rect" id="Node000006" href="$d3/d74/classPolice.html" title="Represents a police car on the road." alt="" coords="352,80,409,107"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="251,36,353,78,351,83,249,41"/>
+</map>

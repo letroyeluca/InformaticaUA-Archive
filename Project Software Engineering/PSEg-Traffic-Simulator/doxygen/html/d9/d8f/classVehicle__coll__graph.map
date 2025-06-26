@@ -1,0 +1,10 @@
+<map id="Vehicle" name="Vehicle">
+<area shape="rect" id="Node000001" title="The base class for all vehicles." alt="" coords="70,224,134,251"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="151,226,157,230,160,238,152,249,135,251,134,246,150,244,155,237,153,233,148,230"/>
+<area shape="rect" id="Node000002" href="$d1/d18/classRoad.html" title="A road on which vehicles can travel." alt="" coords="5,104,58,131"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="28,146,27,173,35,199,51,215,71,225,69,230,48,219,31,201,22,174,23,146"/>
+<area shape="rect" id="Node000003" href="$d5/d8d/structRoadIntersectionBinding.html" title="A struct to keep intersections and the position of the intersection together." alt="" coords="92,104,256,131"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="171,147,161,174,147,202,123,225,119,222,143,198,157,172,166,145"/>
+<area shape="rect" id="Node000004" href="$d7/dbe/classIntersection.html" title="Represents intersections between roads." alt="" coords="130,5,219,32"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="177,48,177,104,172,104,172,48"/>
+</map>

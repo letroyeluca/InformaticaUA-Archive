@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SITUATIE>
+    <BAAN>
+        <naam>same</naam>
+        <lengte>100</lengte>
+    </BAAN>
+    <BAAN>
+        <naam>same</naam>
+        <lengte>100</lengte>
+    </BAAN>
+
+
+    <VOERTUIGGENERATOR>
+        <baan>same</baan>
+        <frequentie>10</frequentie>
+    </VOERTUIGGENERATOR>
+    <VOERTUIGGENERATOR>
+        <baan>same</baan>
+        <frequentie>10</frequentie>
+    </VOERTUIGGENERATOR>
+</SITUATIE>

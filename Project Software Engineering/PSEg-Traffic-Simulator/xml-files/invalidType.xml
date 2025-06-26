@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SITUATIE>
+    <BAAN>
+        <naam>0</naam>
+        <lengte>notint</lengte>
+    </BAAN>
+    <VOERTUIG>
+        <baan>0</baan>
+        <positie>notint</positie>
+    </VOERTUIG>
+    <VOERTUIGGENERATOR>
+        <baan>0</baan>
+        <frequentie>notint</frequentie>
+    </VOERTUIGGENERATOR>
+    <VERKEERSLICHT>
+        <baan>0</baan>
+        <positie>notint</positie>
+        <cyclus>notint</cyclus>
+    </VERKEERSLICHT>
+    <VERKEERSLICHT>
+        <baan>0</baan>
+        <positie>0</positie>
+        <cyclus>notint</cyclus>
+    </VERKEERSLICHT>
+</SITUATIE>

@@ -1,0 +1,8 @@
+<map id="BusStop" name="BusStop">
+<area shape="rect" id="Node000001" title="stops the bus for a set amount of time, then lets it pass" alt="" coords="5,180,77,207"/>
+<area shape="rect" id="Node000002" href="$d9/d89/classStop.html" title="The base class for all objects on roads at which vehicles should stop." alt="" coords="17,104,65,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,146,44,180,38,180,38,146"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="82,109,92,117,83,126,66,127,66,122,81,121,87,117,79,113"/>
+<area shape="rect" id="Node000003" href="$d1/d18/classRoad.html" title="A road on which vehicles can travel." alt="" coords="15,5,67,32"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="44,48,44,104,38,104,38,48"/>
+</map>

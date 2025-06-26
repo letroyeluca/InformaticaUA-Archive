@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SITUATIE>
+    <BAAN>
+        <!--Missing "naam" -->
+        <lengte></lengte>
+    </BAAN>
+
+    <BAAN>
+        <naam></naam>
+        <!-- Missing "lengte" -->
+    </BAAN>
+
+    <VERKEERSLICHT>
+        <!--Missing "baan" -->
+        <positie></positie>
+        <cyclus></cyclus>
+    </VERKEERSLICHT>
+
+    <VERKEERSLICHT>
+        <baan></baan>
+        <!--Missing "positie" -->
+        <cyclus></cyclus>
+    </VERKEERSLICHT>
+
+    <VERKEERSLICHT>
+        <baan></baan>
+        <positie></positie>
+        <!--Missing "cyclus" -->
+    </VERKEERSLICHT>
+
+    <VOERTUIG>
+        <!--Missing "baan" -->
+        <positie></positie>
+    </VOERTUIG>
+
+    <VOERTUIG>
+        <baan></baan>
+        <!--Missing "positie" -->
+    </VOERTUIG>
+
+    <VOERTUIGGENERATOR>
+        <!--Missing "baan" -->
+        <frequentie></frequentie>
+    </VOERTUIGGENERATOR>
+
+    <VOERTUIGGENERATOR>
+        <baan></baan>
+        <!--Missing "frequentie" -->
+    </VOERTUIGGENERATOR>
+</SITUATIE>

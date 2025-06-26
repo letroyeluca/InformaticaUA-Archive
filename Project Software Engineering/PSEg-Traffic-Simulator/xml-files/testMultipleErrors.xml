@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SIMULATIE>
+    <!-- Missing name in Road -->
+    <BAAN>
+        <lengte>500</lengte>
+    </BAAN>
+
+    <!-- Invalid type for position -->
+    <VERKEERSLICHT>
+        <baan>TestRoad</baan>
+        <positie>NOT_A_NUMBER</positie>
+        <cyclus>10</cyclus>
+    </VERKEERSLICHT>
+
+    <!-- Negative frequency -->
+    <VOERTUIGGENERATOR>
+        <baan>TestRoad</baan>
+        <frequentie>-1</frequentie>
+        <type>auto</type>
+    </VOERTUIGGENERATOR>
+</SIMULATIE>

@@ -19,7 +19,7 @@ Mijn notities zijn vrij te gebruiken voor iedereen die er iets aan heeft.
 | Talen & Automaten                   | prof. Els Laenens, prof. Tom Hofkens            |
 
 
-_Alle bestanden zijn GPL-V3 tenzij anders aangegeven._
+_Alle bestanden zijn AGPL-V3 of later tenzij anders aangegeven._
 
 _Alle groepswerken hierop te vinden zijn, zijn dat in overleg met de hele groep, mocht je om eender welke reden liever hebben dat een bepaald gezamelijk project verdwijnt, laat het me gerust weten via mail, Discord of een Github-issue._
 
